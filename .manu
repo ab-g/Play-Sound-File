@@ -1,4 +1,9 @@
 {
+    "1C435217-1F56-4B14-B162-D5571841CD11/ExpandedNodes/7BC924D7-BB4D-4E33-B07B-69B780D4BEB0": "Speaker",
+    "705F1C1A-31FC-49DA-B571-956FB09509BD/SelectedTimelineObject": "0 0 ",
+    "705F1C1A-31FC-49DA-B571-956FB09509BD/UnfoldedTimelineNodes/1935D5DA-34B4-4DF0-869D-9D5F122A93EC": "Speaker",
+    "C1CBEFC3-9D02-4A2C-BBA3-56064FC5432F/SelectedTimelineObject": "0 0 ",
+    "C1CBEFC3-9D02-4A2C-BBA3-56064FC5432F/UnfoldedTimelineNodes/3C44591D-DB11-4996-98C3-C64F8C04FBF5": "Sound",
     "Camera/Position/X": 4.319224834442139,
     "Camera/Position/Y": 2.9931468963623047,
     "Camera/Position/Z": 5.981563091278076,
@@ -14,5 +19,5 @@
     "SnapTypeRotation/SnapPreset1": 45,
     "SnapTypeRotation/SnapPreset2": 90,
     "SnapTypeRotation/SnapPresetSelected": 0,
-    "export/projectName": "New-Project-without-Character"
+    "export/projectName": "Play-Sound-File"
 }

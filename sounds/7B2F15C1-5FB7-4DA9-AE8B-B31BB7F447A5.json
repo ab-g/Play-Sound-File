@@ -1,0 +1,11 @@
+{
+  "@class": "SoundSample",
+  "id": {
+    "uuid": "7B2F15C1-5FB7-4DA9-AE8B-B31BB7F447A5"
+  },
+  "name": "file_example_MP3_700KB.mp3",
+  "filePath": "file_example_MP3_700KB.mp3",
+  "duration": 27193.46875,
+  "channels": 2,
+  "frequence": 32000
+}

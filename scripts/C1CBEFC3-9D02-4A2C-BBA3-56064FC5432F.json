@@ -1,0 +1,54 @@
+{
+  "@class": "TimeLineScript",
+  "id": {
+    "uuid": "C1CBEFC3-9D02-4A2C-BBA3-56064FC5432F"
+  },
+  "name": "Animation",
+  "enableOnAwake": false,
+  "loop": false,
+  "jumpToFirstFrameAtEnd": false,
+  "speed": 1,
+  "weight": 1,
+  "loopStartTime": 0,
+  "loopDuration": 0,
+  "is_imported": false,
+  "type": "user",
+  "scripts": {
+    "@class": "StdListRuntimeScript",
+    "list": [
+      {
+        "@class": "AnimationScript",
+        "id": {
+          "uuid": "3C44591D-DB11-4996-98C3-C64F8C04FBF5"
+        },
+        "name": "Master Sound",
+        "enableOnAwake": false,
+        "OwnerLink": {
+          "@class": "BindingLink"
+        },
+        "animation": {
+          "uuid": "78FB0978-25B7-4779-858C-8151C60E39B0"
+        },
+        "AnimationType": "masterSound",
+        "is_imported": false,
+        "isEnabled": true
+      }
+    ]
+  },
+  "triggers": [
+    {
+      "@class": "KeyTrigger",
+      "id": {
+        "uuid": "0E1BFCDF-B5D3-4089-9930-2FF69BF692F7"
+      },
+      "ownerScriptId": {
+        "uuid": "C1CBEFC3-9D02-4A2C-BBA3-56064FC5432F"
+      },
+      "logicOperation": 0,
+      "resultType": 0,
+      "isInverted": false,
+      "keyCode": 49,
+      "state": 2
+    }
+  ]
+}

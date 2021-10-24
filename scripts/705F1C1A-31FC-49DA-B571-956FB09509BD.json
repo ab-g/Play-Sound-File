@@ -1,0 +1,62 @@
+{
+  "@class": "TimeLineScript",
+  "id": {
+    "uuid": "705F1C1A-31FC-49DA-B571-956FB09509BD"
+  },
+  "name": "Animation",
+  "enableOnAwake": false,
+  "loop": false,
+  "jumpToFirstFrameAtEnd": false,
+  "speed": 1,
+  "weight": 1,
+  "loopStartTime": 0,
+  "loopDuration": 0,
+  "is_imported": false,
+  "type": "user",
+  "scripts": {
+    "@class": "StdListRuntimeScript",
+    "list": [
+      {
+        "@class": "AnimationScript",
+        "id": {
+          "uuid": "1935D5DA-34B4-4DF0-869D-9D5F122A93EC"
+        },
+        "name": "Speaker",
+        "enableOnAwake": false,
+        "OwnerLink": {
+          "@class": "BindingLink",
+          "targetId": {
+            "uuid": "7BC924D7-BB4D-4E33-B07B-69B780D4BEB0"
+          },
+          "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 4,
+            "name": "Speaker"
+          }
+        },
+        "animation": {
+          "uuid": "8C35FCF0-3BC3-4883-80FB-4F6AC26D5C2E"
+        },
+        "AnimationType": "object3D",
+        "is_imported": false,
+        "isEnabled": true
+      }
+    ]
+  },
+  "triggers": [
+    {
+      "@class": "KeyTrigger",
+      "id": {
+        "uuid": "921224D8-F5C0-469C-9AA0-4AF0F9D4FD22"
+      },
+      "ownerScriptId": {
+        "uuid": "705F1C1A-31FC-49DA-B571-956FB09509BD"
+      },
+      "logicOperation": 0,
+      "resultType": 0,
+      "isInverted": false,
+      "keyCode": 50,
+      "state": 2
+    }
+  ]
+}

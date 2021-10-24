@@ -48,7 +48,9 @@
       "children": [
         "D8E1D3DE-2BB8-4152-AD73-D8CFD5761AB5",
         "A0DAFCA4-98B7-44FF-B61E-24DDEDB47BB9",
-        "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2"
+        "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2",
+        "59244D77-50DC-4FB6-A99D-0BA313C1730C",
+        "7BC924D7-BB4D-4E33-B07B-69B780D4BEB0"
       ]
     },
     {
@@ -224,6 +226,150 @@
       },
       "is_asset_root": true,
       "asset_name": "Floor_200x200"
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "59244D77-50DC-4FB6-A99D-0BA313C1730C"
+        },
+        "name": "Animation - 1",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "timeline": {
+          "@class": "BaseComponentTimeline",
+          "timelineId": {
+            "uuid": "C1CBEFC3-9D02-4A2C-BBA3-56064FC5432F"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "7BC924D7-BB4D-4E33-B07B-69B780D4BEB0"
+        },
+        "name": "Speaker",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "audio": {
+          "@class": "BaseComponentAudioSource",
+          "audioSourceId": {
+            "uuid": "84E29B29-86F3-47E1-842F-2B29EF589774"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      },
+      "children": [
+        "D94F107F-5828-4E1D-A9B8-978EA0440707"
+      ]
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "D94F107F-5828-4E1D-A9B8-978EA0440707"
+        },
+        "name": "Animation - 2",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "timeline": {
+          "@class": "BaseComponentTimeline",
+          "timelineId": {
+            "uuid": "705F1C1A-31FC-49DA-B571-956FB09509BD"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
     }
   ],
   "scriptSystem": {
@@ -257,6 +403,18 @@
         "@class": "Script_PostFX",
         "id": {
           "uuid": "E8A9D4B2-4E99-406A-861B-6BA10BE5AA4A"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "C1CBEFC3-9D02-4A2C-BBA3-56064FC5432F"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "705F1C1A-31FC-49DA-B571-956FB09509BD"
         }
       }
     ]

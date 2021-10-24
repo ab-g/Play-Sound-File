@@ -1,0 +1,11 @@
+{
+  "@class": "SoundSample",
+  "id": {
+    "uuid": "2066AD12-05C6-40E4-92F7-7DCC013D77CD"
+  },
+  "name": "77367__mrmayo__simple-drum-loop.mp3",
+  "filePath": "77367__mrmayo__simple-drum-loop.mp3",
+  "duration": 45557.55078125,
+  "channels": 2,
+  "frequence": 44100
+}

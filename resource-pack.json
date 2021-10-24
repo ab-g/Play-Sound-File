@@ -1,5 +1,48 @@
 {
   "@class": "ResourcePack",
+  "animations": {
+    "@class": "StdResourceMapAnimation",
+    "map": [
+      {
+        "key": {
+          "uuid": "78FB0978-25B7-4779-858C-8151C60E39B0"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "78FB0978-25B7-4779-858C-8151C60E39B0"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "8C35FCF0-3BC3-4883-80FB-4F6AC26D5C2E"
+        },
+        "value": {
+          "@class": "Animation",
+          "id": {
+            "uuid": "8C35FCF0-3BC3-4883-80FB-4F6AC26D5C2E"
+          }
+        }
+      }
+    ]
+  },
+  "audioSources": {
+    "@class": "StdResourceMapAudioSource",
+    "map": [
+      {
+        "key": {
+          "uuid": "84E29B29-86F3-47E1-842F-2B29EF589774"
+        },
+        "value": {
+          "@class": "AudioSource",
+          "id": {
+            "uuid": "84E29B29-86F3-47E1-842F-2B29EF589774"
+          }
+        }
+      }
+    ]
+  },
   "cameras": {
     "@class": "StdResourceMapCamera",
     "map": [
@@ -116,13 +159,32 @@
       }
     ]
   },
-  "skinControllers": {
-    "@class": "StdResourceMapSkinController",
-    "map": []
-  },
   "soundSamples": {
     "@class": "StdResourceMapSoundSample",
-    "map": []
+    "map": [
+      {
+        "key": {
+          "uuid": "2066AD12-05C6-40E4-92F7-7DCC013D77CD"
+        },
+        "value": {
+          "@class": "SoundSample",
+          "id": {
+            "uuid": "2066AD12-05C6-40E4-92F7-7DCC013D77CD"
+          }
+        }
+      },
+      {
+        "key": {
+          "uuid": "7B2F15C1-5FB7-4DA9-AE8B-B31BB7F447A5"
+        },
+        "value": {
+          "@class": "SoundSample",
+          "id": {
+            "uuid": "7B2F15C1-5FB7-4DA9-AE8B-B31BB7F447A5"
+          }
+        }
+      }
+    ]
   },
   "textures2d": {
     "@class": "StdResourceMapTexture2D",
